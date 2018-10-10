@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
 
         num_1 = Kernel.integer(1) #rand(1..20)
-        num_2 = Kernel.integer(1)) #rand(1..20)
+        num_2 = Kernel.integer(1) #rand(1..20)
         num_3 = Kernel.integer(1) #rand(1..20)
 
         resp.write "#{num_1}\n"
