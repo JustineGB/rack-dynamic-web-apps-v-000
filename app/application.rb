@@ -5,7 +5,7 @@ class Application
 
         num_1 = Kernel.Integer(1) #rand(1..20)
         num_2 = Kernel.Integer(2) #rand(1..20)
-        num_3 = Kernel.Integer(3) #rand(1..20)
+        num_3 = Kernel.Integer(2) #rand(1..20)
 
         resp.write "#{num_1}\n"
         resp.write "#{num_2}\n"
